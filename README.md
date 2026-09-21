@@ -1,5 +1,5 @@
 import os
-
+from web3 import Web3
 
 RPC_URL = os.getenv("RPC_URL", "https://eth.llamarpc.com")
 TOKEN_ADDRESS = os.getenv("TOKEN_ADDRESS")
